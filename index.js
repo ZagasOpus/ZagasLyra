@@ -1,5 +1,5 @@
 const { Client, Events, GatewayIntentBits } = require('discord.js');
-const { dotenv } = require('dotenv');
+const dotenv = require('dotenv');
 
 dotenv.config();
 const token = process.env.BOT_TOKEN;
